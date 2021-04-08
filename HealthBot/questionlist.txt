@@ -1,0 +1,34 @@
+
+This is the question this chatbot system needs to ask. However, our system is not case sensitive. So the system will answer all the questions.
+
+
+
+Hi
+Hello
+What is CoronaVirus?
+What is COVID 19?
+How does the new coronavirus spread?
+How did this new coronavirus spread to humans?
+What is the incubation period for COVID-19?
+What is the incubation period for CoronaVirus?
+What are the symptoms of coronaVirus?
+What are the symptoms of covid-19?
+How is COVID-19 diagnosed?
+How is coronaVirus diagnosed?
+How is COVID-19 treated?
+How is coronaVirus treated?
+Does COVID-19 cause death?
+Does coronaVirus cause death?
+Is this coronavirus different from SARS?
+How do you protect yourself from this coronavirus?
+How do you protect yourself from this COVID-19?
+About Coronaviruses
+What do I do if I Feel Sick?
+Is there a Vaccine Yet?
+Can the coronavirus live on my clothes?
+Can sunlight treat Covid-19?
+How to Properly Wear a Face Mask?
+Coronavirus Risk Factors
+What is community spread?
+How do we know about coronavirus cases updated?
+How do we know about coronavirus Healt Tips?
