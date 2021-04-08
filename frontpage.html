@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> COVID CARE</title>
+    </head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+.start{
+    height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.slideshow img{
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+  z-index:-1;
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+}
+.start .warn{
+border-radius: 0.5rem;
+  padding: 4rem 2.5rem;
+  background-color: rgba(0,0,0,0.5);
+}
+.start h1{
+    font-size: 4rem;
+  margin-bottom: 0.75rem;
+}
+.start p{
+    font-size: 1.75rem;
+}
+@media (max-width: 700px) {
+  html { font-size: 12px; }
+  .write { padding: 1.5rem 2rem; }
+  .start h1 { font-size: 2.5rem; }
+  .start p { font-size: 1.25rem; }
+}
+.side{
+    width: 100%; height: 100px; text-align: left; color: white;  margin-top: 0px; padding: 40px;
+}
+.side button{
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    border-radius: 4px 4px 4px 4px;
+    padding: 10px 35px ; 
+
+}
+</style>
+    <body>
+
+<header class="start">
+  <div class="side">
+    <a href="../WebProject/healthTips.html"> <button> Health tips</button> </a>
+    <a href="../WebProject/outbreak.html"> <button> Outbreak World </button> </a>
+    <a href="../WebProject/HealthBot/main.php"> <button> Health Assistant Bot</button> </a>
+    <button> About Us</button>
+  </div>
+      
+    <div class="slideshow">
+      <! src for these images : https://unsplash.com/s/photos/coronavirus >
+        <img src="https://images.unsplash.com/photo-1593007791459-4b05e1158229?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1590316750969-757019420a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80">
+      <img src="https://images.unsplash.com/photo-1584265549884-cb8ea486a613?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1585331505473-7586f9cb0854?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1585328207909-d5f9f6887bb0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1584529847460-0e208a238cea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1588776844919-5ed4449a8fd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" >
+      <img src="https://images.unsplash.com/photo-1584570612791-f7f4ddcd94d3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+      <img src="https://images.unsplash.com/photo-1588781553741-7ee2ed5e8cf4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
+      <img src="https://images.unsplash.com/photo-1588615419966-0c0f3bb797b3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">
+      <img src="https://images.unsplash.com/photo-1586974175094-0a7259238613?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+
+
+   
+    </div>
+<div class="warn">
+  <h1> COVID CARE </h1>
+  <p> Awareness website run by Ariful and Hekam </p>
+</div>
+
+</header>       
+<script>
+    const slideshow = document.querySelectorAll(".slideshow img");
+    const nextImageDelay = 5000;
+    let currentImageCounter = 0; // set a variable to keep track of the current image 
+    // slideshow[currentImageCounter].style.display = "block";
+    slideshow[currentImageCounter].style.opacity = 1;
+    setInterval(nextImage, nextImageDelay);
+    function nextImage() {
+  // slideshow[currentImageCounter].style.display = "none";
+  slideshow[currentImageCounter].style.opacity = 0;
+
+  currentImageCounter = (currentImageCounter+1) % slideshow.length;
+
+  // slideshowImages[currentImageCounter].style.display = "block";
+  slideshow[currentImageCounter].style.opacity = 1;
+}
+</script> 
+    </body>
+</html>

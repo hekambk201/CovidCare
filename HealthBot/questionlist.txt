@@ -1,0 +1,45 @@
+
+This is the question this chatbot system needs to ask. However, our system is not case sensitive. So the system will answer all the questions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question: What are the symptoms of the coronavirus?
+Question: What should I do if I feel sick?
+Question: Is there a Vaccine Yet
+Question: Should I wear a mask?
+Question: Why is it called the coronavirus?
+Question: How long can the virus live on cash? On my keyboard?
+Question: Can the coronavirus live on my clothes?
+Question: How long can the virus live on a doorknob? On cash? On my keyboard?
+Question: Can I give blood?
+Question: Should I make a hand sanitizer?
+Question: My kids are scared. What can I tell them?
+Question: How can I help the health workers?
+Question: I’m worried about my children’s mental health. What can I do?
+Question: My child has mild cold or flu symptoms. Should I take him to the hospital?
+Question: Can I travel? Is it safe?
+Question: How can I stay motivated with everything going on?
+Question: Can sunlight treat Covid-19?
+Question: Will the warmer weather stop the spread?
+Question: Is there a natural cure for the coronavirus?
+Question: Is the virus on my clothes or in my hair?
+Question: Can I get the virus if I’m outside?
+Question: Can I go to the park?
+ 
+Question: What if somebody in my family gets sick?
+Question: Why do we need to stay six feet away? What’s magic about that number?
+Question: Can you get the virus from eating food made by someone who was sick?
+Question: What is convalescent plasma? What’s this about antibodies?
+Question: Are gloves a good way to protect myself?
+Question: I’ve recovered from Covid-19. How do I 
